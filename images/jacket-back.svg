@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#f3ece4"/>
-<path d="M145 55 L95 75 L55 250 L92 258 L120 160 L118 355 L282 355 L280 160 L308 258 L345 250 L305 75 L255 55 Q200 70 145 55 Z" fill="#a0522d" stroke="#6b3419" stroke-width="3" stroke-linejoin="round"/>
-<path d="M145 55 Q200 70 255 55 L258 40 Q200 55 142 40 Z" fill="#8b4424" stroke="#6b3419" stroke-width="3"/>
-<path d="M118 130 Q200 150 282 130" fill="none" stroke="#6b3419" stroke-width="2"/>
-<path d="M165 355 L170 150 M235 355 L230 150" fill="none" stroke="#6b3419" stroke-width="2" stroke-dasharray="4 4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#fde4db"/>
+<path d="M145 55 L95 75 L55 250 L92 258 L120 160 L118 355 L282 355 L280 160 L308 258 L345 250 L305 75 L255 55 Q200 70 145 55 Z" fill="#ff6a13" stroke="#a63a05" stroke-width="3" stroke-linejoin="round"/>
+<path d="M145 55 Q200 70 255 55 L258 40 Q200 55 142 40 Z" fill="#e5570a" stroke="#a63a05" stroke-width="3"/>
+<path d="M118 130 Q200 150 282 130" fill="none" stroke="#a63a05" stroke-width="2"/>
+<path d="M165 355 L170 150 M235 355 L230 150" fill="none" stroke="#a63a05" stroke-width="2" stroke-dasharray="4 4"/>
 </svg>

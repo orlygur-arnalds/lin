@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#f4ebee"/>
-<path d="M160 40 L150 90 L130 170 L80 355 L320 355 L270 170 L250 90 L240 40 Q200 120 160 40 Z" fill="#b5476b" stroke="#7d2b46" stroke-width="3" stroke-linejoin="round"/>
-<path d="M130 170 Q200 185 270 170" fill="none" stroke="#7d2b46" stroke-width="6"/>
-<g fill="#f6d6e0"><circle cx="160" cy="250" r="6"/><circle cx="220" cy="230" r="6"/><circle cx="250" cy="300" r="6"/><circle cx="130" cy="320" r="6"/><circle cx="195" cy="300" r="6"/><circle cx="180" cy="130" r="5"/><circle cx="225" cy="140" r="5"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#fde4db"/>
+<path d="M160 40 L150 90 L130 170 L80 355 L320 355 L270 170 L250 90 L240 40 Q200 120 160 40 Z" fill="#f59ab0" stroke="#d4577a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M130 170 Q200 185 270 170" fill="none" stroke="#d4577a" stroke-width="6"/>
+<g fill="#fff4ec"><circle cx="160" cy="250" r="6"/><circle cx="220" cy="230" r="6"/><circle cx="250" cy="300" r="6"/><circle cx="130" cy="320" r="6"/><circle cx="195" cy="300" r="6"/><circle cx="180" cy="130" r="5"/><circle cx="225" cy="140" r="5"/></g>
 </svg>

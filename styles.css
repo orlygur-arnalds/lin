@@ -1,8 +1,13 @@
 :root {
-  --bg: #faf8f5;
-  --text: #222;
-  --muted: #777;
-  --accent: #2f4858;
+  --orange: #ff6a13;
+  --coral: #f26b4f;
+  --peach: #fde4db;
+  --cream: #fff4ec;
+  --lime: #9ad62b;
+  --bg: var(--orange);
+  --text: var(--cream);
+  --muted: #ffd9c4;
+  --accent: var(--lime);
 }
 
 * {
@@ -11,7 +16,8 @@
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 18px;
   background: var(--bg);
   color: var(--text);
 }
@@ -26,11 +32,11 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  border-bottom: 1px solid #e6e1da;
+  border-bottom: 2px solid var(--cream);
 }
 
 .logo {
-  font-family: Georgia, serif;
+  font-family: inherit;
   font-size: 28px;
   letter-spacing: 8px;
 }
@@ -52,9 +58,9 @@ a {
 }
 
 .hero h1 {
-  font-family: Georgia, serif;
+  font-family: inherit;
   font-weight: normal;
-  font-size: 44px;
+  font-size: 72px;
   margin: 0 0 10px;
 }
 
@@ -73,8 +79,8 @@ a {
 }
 
 .product h2 {
-  font-size: 16px;
-  font-weight: normal;
+  font-size: 22px;
+  font-weight: 600;
   margin: 14px 0 4px;
 }
 
@@ -91,6 +97,8 @@ a {
   overflow: hidden;
   border-radius: 6px;
   cursor: pointer;
+  background: var(--peach);
+  box-shadow: 0 0 0 3px var(--cream);
 }
 
 .product-image img {
@@ -124,8 +132,9 @@ a {
   left: 12px;
   bottom: 12px;
   padding: 4px 10px;
-  font-size: 12px;
-  background: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  color: #2b3a05;
+  background: var(--lime);
   border-radius: 20px;
   opacity: 0;
   transition: opacity 0.4s ease;
@@ -142,7 +151,8 @@ a {
   padding: 30px;
   color: var(--muted);
   font-size: 14px;
-  border-top: 1px solid #e6e1da;
+  border-top: 2px solid var(--cream);
+  background: var(--coral);
 }
 
 @media (max-width: 600px) {

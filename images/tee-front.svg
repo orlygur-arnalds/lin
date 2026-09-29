@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#f1ede6"/>
-<path d="M140 60 L95 78 L35 135 L75 180 L110 152 L110 355 L290 355 L290 152 L325 180 L365 135 L305 78 L260 60 Q200 118 140 60 Z" fill="#2f4858" stroke="#1d2e38" stroke-width="3" stroke-linejoin="round"/>
-<path d="M140 60 Q200 118 260 60" fill="none" stroke="#1d2e38" stroke-width="8"/>
-<circle cx="200" cy="200" r="34" fill="none" stroke="#f6c667" stroke-width="6"/><text x="200" y="208" font-family="Georgia,serif" font-size="24" fill="#f6c667" text-anchor="middle">L</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#fde4db"/>
+<path d="M140 60 L95 78 L35 135 L75 180 L110 152 L110 355 L290 355 L290 152 L325 180 L365 135 L305 78 L260 60 Q200 118 140 60 Z" fill="#f26b4f" stroke="#c2412a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M140 60 Q200 118 260 60" fill="none" stroke="#c2412a" stroke-width="8"/>
+<circle cx="200" cy="200" r="34" fill="none" stroke="#fff4ec" stroke-width="6"/><text x="200" y="208" font-family="Georgia,serif" font-size="24" fill="#fff4ec" text-anchor="middle">L</text>
 </svg>
