@@ -1,0 +1,161 @@
+:root {
+  --bg: #faf8f5;
+  --text: #222;
+  --muted: #777;
+  --accent: #2f4858;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e6e1da;
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  letter-spacing: 8px;
+}
+
+.site-header nav a {
+  margin-left: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.site-header nav a:hover {
+  color: var(--accent);
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 44px;
+  margin: 0 0 10px;
+}
+
+.hero p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 40px 60px;
+}
+
+.product h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 14px 0 4px;
+}
+
+.price {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* ---- Front/back image swap ---- */
+
+.product-image {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.product-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease, transform 0.6s ease;
+}
+
+.product-image .back {
+  opacity: 0;
+}
+
+.product-image:hover .front,
+.product-image:focus-visible .front,
+.product-image.show-back .front {
+  opacity: 0;
+}
+
+.product-image:hover .back,
+.product-image:focus-visible .back,
+.product-image.show-back .back {
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+.badge {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  padding: 4px 10px;
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.product-image:hover .badge,
+.product-image:focus-visible .badge,
+.product-image.show-back .badge {
+  opacity: 1;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 30px;
+  color: var(--muted);
+  font-size: 14px;
+  border-top: 1px solid #e6e1da;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    padding: 16px;
+  }
+
+  .site-header nav a {
+    margin-left: 12px;
+  }
+
+  .grid {
+    padding: 20px 16px 40px;
+    gap: 20px;
+  }
+}

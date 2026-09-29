@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#f1ede6"/>
+<path d="M140 60 L95 78 L35 135 L75 180 L110 152 L110 355 L290 355 L290 152 L325 180 L365 135 L305 78 L260 60 Q200 80 140 60 Z" fill="#2f4858" stroke="#1d2e38" stroke-width="3" stroke-linejoin="round"/>
+<path d="M140 60 Q200 80 260 60" fill="none" stroke="#1d2e38" stroke-width="8"/>
+<text x="200" y="175" font-family="Georgia,serif" font-size="30" fill="#f6c667" text-anchor="middle" letter-spacing="6">LIN</text>
+<text x="200" y="205" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#f6c667" text-anchor="middle" letter-spacing="4">EST. 2026</text>
+</svg>

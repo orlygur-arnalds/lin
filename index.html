@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lin Clothing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">LIN</a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#cart">Cart (0)</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>New Season</h1>
+    <p>Hover over a piece to see the back.</p>
+  </section>
+
+  <main id="shop" class="grid">
+    <!--
+      To add a product: copy one <article> block and change the two image paths.
+      The first <img> is the front, the second (class="back") is shown on hover.
+    -->
+    <article class="product">
+      <div class="product-image" tabindex="0">
+        <img class="front" src="images/tee-front.svg" alt="Classic Tee, front">
+        <img class="back" src="images/tee-back.svg" alt="Classic Tee, back">
+        <span class="badge">Back view</span>
+      </div>
+      <h2>Classic Tee</h2>
+      <p class="price">$29</p>
+    </article>
+
+    <article class="product">
+      <div class="product-image" tabindex="0">
+        <img class="front" src="images/hoodie-front.svg" alt="Olive Hoodie, front">
+        <img class="back" src="images/hoodie-back.svg" alt="Olive Hoodie, back">
+        <span class="badge">Back view</span>
+      </div>
+      <h2>Olive Hoodie</h2>
+      <p class="price">$59</p>
+    </article>
+
+    <article class="product">
+      <div class="product-image" tabindex="0">
+        <img class="front" src="images/jacket-front.svg" alt="Rust Jacket, front">
+        <img class="back" src="images/jacket-back.svg" alt="Rust Jacket, back">
+        <span class="badge">Back view</span>
+      </div>
+      <h2>Rust Jacket</h2>
+      <p class="price">$119</p>
+    </article>
+
+    <article class="product">
+      <div class="product-image" tabindex="0">
+        <img class="front" src="images/dress-front.svg" alt="Berry Dress, front">
+        <img class="back" src="images/dress-back.svg" alt="Berry Dress, back">
+        <span class="badge">Back view</span>
+      </div>
+      <h2>Berry Dress</h2>
+      <p class="price">$79</p>
+    </article>
+  </main>
+
+  <footer id="about" class="site-footer">
+    <p>&copy; 2026 Lin Clothing</p>
+  </footer>
+
+  <script>
+    // Touch screens have no hover: tap a picture to toggle front/back.
+    document.querySelectorAll('.product-image').forEach(function (card) {
+      card.addEventListener('click', function () {
+        card.classList.toggle('show-back');
+      });
+    });
+  </script>
+</body>
+</html>
